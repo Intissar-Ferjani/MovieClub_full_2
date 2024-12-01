@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "829235940993",
+    "firebase_url": "https://movieclub-55490-default-rtdb.firebaseio.com",
+    "project_id": "movieclub-55490",
+    "storage_bucket": "movieclub-55490.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829235940993:android:96de7d5f7f60f046adc780",
+        "android_client_info": {
+          "package_name": "com.example.movieclub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829235940993-p9l5sv7sk0g7rsnc24c8r0uf3dhe5njq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.movieclub",
+            "certificate_hash": "398795d5e4d1fc7241a37486e77133eda8c06503"
+          }
+        },
+        {
+          "client_id": "829235940993-bd1eu3dl2ebbaud3jhqv3vl8fieutafn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1AdJVT9KKv3K0w4VtaigXVaEOlnjE78E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829235940993-bd1eu3dl2ebbaud3jhqv3vl8fieutafn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
