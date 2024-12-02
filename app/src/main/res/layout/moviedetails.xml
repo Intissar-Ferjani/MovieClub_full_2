@@ -76,4 +76,20 @@
 
         />
 
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description"
+        android:id="@+id/watchTrailor"
+        android:layout_centerHorizontal="true"
+        android:text="Watch Trailor"
+        app:iconTint="@color/md_theme_light_background"
+        app:iconGravity="end"
+        android:textSize="18sp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/md_theme_light_background"
+        android:backgroundTint="@color/design_default_color_error"
+
+        />
+
 </RelativeLayout>

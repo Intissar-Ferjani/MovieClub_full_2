@@ -68,9 +68,8 @@ dependencies {
 
     implementation ("com.google.firebase:firebase-appcheck-debug")
 
-    implementation ("de.hdodenhof:circleimageview:2.2.0")
-    implementation ("com.squareup.picasso:picasso:2.5.2")
+    // for trailer
+    implementation ("com.android.volley:volley:1.2.1")
 
-    implementation("com.vanniktech:android-image-cropper:4.6.0")
 
 }

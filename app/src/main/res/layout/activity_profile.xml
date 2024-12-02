@@ -61,7 +61,7 @@
                 android:background="@drawable/circle_shape"
                 android:clipToOutline="true"
                 android:scaleType="centerCrop"
-                android:src="@drawable/img" />
+                android:src="@drawable/img_1" />
         </RelativeLayout>
     </LinearLayout>
 

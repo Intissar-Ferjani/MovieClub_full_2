@@ -69,4 +69,8 @@ public class DataClass {
     public void setDescription(String description) {
         this.description = description;
     }
+
+    public int getId() {
+        return key;
+    }
 }

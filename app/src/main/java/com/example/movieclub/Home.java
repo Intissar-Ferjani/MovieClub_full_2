@@ -57,7 +57,8 @@ import eightbitlab.com.blurview.BlurAlgorithm;
 import eightbitlab.com.blurview.BlurView;
 import eightbitlab.com.blurview.RenderEffectBlur;
 import eightbitlab.com.blurview.RenderScriptBlur;
-import com.example.movieclub.AppDatabase;
+import android.content.Intent;
+import android.net.Uri;
 
 
 
@@ -350,6 +351,8 @@ public class Home extends AppCompatActivity {
 
                                         MaterialButton button = view.findViewById(R.id.watchlist);
 
+                                        MaterialButton watchTrailerButton = findViewById(R.id.watchTrailor);
+
                                         if (herourl != null && hero != null) {
 
                                             Glide.with(view)
@@ -479,7 +482,6 @@ public class Home extends AppCompatActivity {
 
         });
 
-
     }
 
 
@@ -563,9 +565,9 @@ public class Home extends AppCompatActivity {
                 TextView description = view.findViewById(R.id.description);
                 String herourl = arrayList.get(position).getHerourl();
                 MaterialButton button = view.findViewById(R.id.watchlist);
-                //MaterialButton button=view.findViewById(R.id.watchlist);
-                //DataClass data = arrayList.get(position);
-                //Log.e("st1",arrayList.get(position).getUrl());
+
+                MaterialButton watchTrailerButton = findViewById(R.id.watchTrailor);
+
                 if (herourl != null && hero != null) {
 
                     Glide.with(view)
@@ -980,6 +982,7 @@ public class Home extends AppCompatActivity {
         InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
         imm.hideSoftInputFromWindow(searchView.getWindowToken(), 0);
     }
+
 
 
 }

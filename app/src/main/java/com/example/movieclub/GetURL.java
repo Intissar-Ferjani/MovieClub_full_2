@@ -61,4 +61,17 @@ public class GetURL {
 
         return newurl;
     }
+
+    public String fetchTrailerURL(String type, int id) {
+        String baseURL = "https://api.themoviedb.org/3/";
+        String trailerURL = "";
+
+        if (type.equalsIgnoreCase("movie")) {
+            trailerURL = baseURL + "movie/" + id + "/videos?api_key=" + PLACEHOLDER_API_KEY + "&language=en-US";
+        } else if (type.equalsIgnoreCase("tv")) {
+            trailerURL = baseURL + "tv/" + id + "/season/1/episode/1/videos?api_key=" + PLACEHOLDER_API_KEY + "&language=en-US";
+        }
+
+        return trailerURL;
+    }
 }
